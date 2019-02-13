@@ -1,0 +1,1281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F47B6F6F8AA5DCD05FEEB11197447B /* NSNull+WQ_SafeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 208E08E03CDEAF96D01DB8EBA2FBA6E0 /* NSNull+WQ_SafeValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0441E82476A9178178DF00C2AEE41E9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC90BBF2A2A85CF6C0AA0F1D39801F78 /* QuartzCore.framework */; };
+		0A7AA983C906CCA7C1018FA1A1C568A3 /* NSDictionary+WQ_SafeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9752F813BCD124540B6C90669D141B /* NSDictionary+WQ_SafeValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD6A51C14A1270872AC21FF4120AA85 /* UINavigationBar+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ED0257100ED7B2594B34E3D08D5E3B /* UINavigationBar+WQ_Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D5E847B5619856E1C22A74EC898F69C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2BEE371E328BFF1C4E6717F36B0C59 /* Foundation.framework */; };
+		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C314547AC1777191243037975BDC2805 /* SwiftSupport.swift */; };
+		281842DCB0EF2048CEB11C7F7D0AE2EA /* UIImage+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F47F2917B62F69AF6CE7C1E8AE7802C6 /* UIImage+WQ_Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F5A8BE76ABC61DDFAACB36873B6D549 /* Pods-WQ_TabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58276276780CEBE472033EA332FF5AD9 /* Pods-WQ_TabBar_Example-dummy.m */; };
+		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2A962D20011171CA3E8AF95253D58E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3F9D858EF4842121CE99AE7A3D12B771 /* Pods-WQ_TabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2021DE6C61A739BE2D280EE06926586 /* Pods-WQ_TabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		413D79C12029047E75883BC3B59B90E6 /* WQ_TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D16727DB6F06CFAD4EABA78180F96 /* WQ_TabBar.m */; };
+		44BB6493A9F27EE53F3DA43328F051E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2BEE371E328BFF1C4E6717F36B0C59 /* Foundation.framework */; };
+		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D778219DA308EAB908B74EE9D155EE1 /* FBSnapshotTestCase-dummy.m */; };
+		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BC55D4A0E0048BBE6DC7B8D4DBF702 /* UIImage+Compare.m */; };
+		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30369E474A9C59960C451FF5E931B743 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFD6B9B901EA3D28C3F74CF09E2860F /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F771914ED093BD846FBB4EA5D2CDCAB /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EA36466365393255E73670A7FBBACEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2BEE371E328BFF1C4E6717F36B0C59 /* Foundation.framework */; };
+		5FBCC0B5984E92A2D8CA46474338DC73 /* WQ_TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754D8294223DF1A3AFE213E92D94FCA9 /* WQ_TabBarController.m */; };
+		620002D55F8D093DFB3E88E2CF8DCC60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADF175266D2829E5D0669D0DB7C14F1 /* XCTest.framework */; };
+		628A1E33DDB8B21766710D90F449E7B8 /* NSNull+WQ_SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BD10DEBA81C1F8A49D3C5D8A1001F2F8 /* NSNull+WQ_SafeValue.m */; };
+		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = F1682D9786D936D42281CE5848936400 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BF2260D71BDDF4E110C3F1751DAB2 /* FBSnapshotTestCasePlatform.m */; };
+		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCD2CDA0543F7223EC5ACCD97D90244 /* FBSnapshotTestCase.m */; };
+		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE98205209B345451E3882C54D70447 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8CAC3B81FFAB2342335164D30A3ACCD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4748B1A2B73A757ECAB9EE816D5815 /* UIKit.framework */; };
+		9DA8E6AE03FC3C0D8243EF9066129980 /* WQ_TabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5965CE267FF56F183AB5FBD1EECE5AB2 /* WQ_TabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A685616CBA0B5CA404C198E1E09A28AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2BEE371E328BFF1C4E6717F36B0C59 /* Foundation.framework */; };
+		AB6D4599AAEF7C8BDB01D86E319557BC /* UINavigationBar+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C62730D86C7FDC45693D7FA25E5E3A /* UINavigationBar+WQ_Extension.m */; };
+		ABAE7CF26223EF6654884CC1F86BF0E2 /* WQ_TabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF3EAE6796C10DDCDC5787FEA35A9E4 /* WQ_TabBar-dummy.m */; };
+		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA414A0C7D3FF16B87A7DC8542AB499 /* UIApplication+StrictKeyWindow.m */; };
+		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E36AFE498F1DBF9BA5A0D8744258F064 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B514FBBE2D72380FFA36A50FF4D87FBD /* NSDate+WQ_Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C0659916FD3BF9095910FD2104372F6C /* NSDate+WQ_Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC7EA590C0A3F69594EA19E36FF6C1B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDE819103C42BA4E61104BA284960334 /* WQ_Category-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDBD7890DDC4835C23371BAF63738DB /* WQ_Category-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8C836F43A7F304292539BB1652D0E3A /* WQ_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0940DB1F4F2EDBE6B03C2175672B30 /* WQ_Category.framework */; };
+		D2820BDA347DDB51229DC465F25B7B6F /* Pods-WQ_TabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0669DA07BC14FB0A15B66692702E5F1F /* Pods-WQ_TabBar_Tests-dummy.m */; };
+		D44B9941030FF0833E3D578F8FA38022 /* WQ_TabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8BDCCC4594AC0537E1313C7564767F /* WQ_TabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67DC0B1FFFB09C4EBCF6D7A7F6C59F2 /* NSDictionary+WQ_SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FAB4A7CC4E93BA69A36A5D72AACDA8 /* NSDictionary+WQ_SafeValue.m */; };
+		D9A261DFB7A2DEAA14871C54825E6328 /* WQ_TabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F90090B78749093BB6451411C4CC7A8 /* WQ_TabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AB28774A6DF6A94F2A0D44AAD0E72A /* FBSnapshotTestController.m */; };
+		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15E36AD0EDB3CE0288CFBF2536CC2E /* UIImage+Diff.m */; };
+		E4F199A91C9EBD7D43AEBE7D10A163CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2BEE371E328BFF1C4E6717F36B0C59 /* Foundation.framework */; };
+		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 673DD7E43B82D035F51F05C1819CC452 /* UIImage+Snapshot.m */; };
+		F24F3FA0A0B3540B80355110F1608041 /* WQ_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51409D97FE742F179601C6E83595A469 /* WQ_Category-dummy.m */; };
+		F866966C8E3DA102EEADBBBE7F9623DC /* Pods-WQ_TabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC807FF3E679B5306A679C26196DDE23 /* Pods-WQ_TabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9938A69316FBCA39045A8CC4FD9CEB /* NSDate+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF88B4C4E737B4A95EC94F976568C72 /* NSDate+WQ_Extension.m */; };
+		FF8351C865F7873FD2D42C2175B51335 /* UIImage+WQ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A269929D4FA5C8FB51A9B14AEE6B2 /* UIImage+WQ_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28D4E4536E024D3EE53BA84E55F69110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B201BFDB9D86FF78E5787EE33DDCBB;
+			remoteInfo = WQ_TabBar;
+		};
+		88893FD675EFDB869AD946F3C34F068C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B2B9932577DF4F6794FC4E138343D8;
+			remoteInfo = "Pods-WQ_TabBar_Example";
+		};
+		90231CBC9069FAE022A1B54AAC8C35C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D792A6F88E7348ACB1E3CA01DE8F2E1C;
+			remoteInfo = WQ_Category;
+		};
+		F725111C818E8AF3C03EAFCB43501BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		F806C20366B2F44499A14A953273D2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D792A6F88E7348ACB1E3CA01DE8F2E1C;
+			remoteInfo = WQ_Category;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CE4807896C3AEF2E9400DC4D5C92F5 /* Pods-WQ_TabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_TabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		03B575496D40077AECE83E72B986E2C1 /* Pods-WQ_TabBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_TabBar_Example-resources.sh"; sourceTree = "<group>"; };
+		051FC8AFEF2E21C130AE247CBA6A6F49 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		0669DA07BC14FB0A15B66692702E5F1F /* Pods-WQ_TabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQ_TabBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		086B55D1A6EBF1379752F0E001C23C3D /* Pods_WQ_TabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQ_TabBar_Example.framework; path = "Pods-WQ_TabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA68957161CE9A68F630289A5B3DF31 /* WQ_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_Category-prefix.pch"; sourceTree = "<group>"; };
+		0BCD2CDA0543F7223EC5ACCD97D90244 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		19ED0257100ED7B2594B34E3D08D5E3B /* UINavigationBar+WQ_Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+WQ_Extension.h"; path = "WQ_Category/Classes/UINavigationBar+WQ_Extension.h"; sourceTree = "<group>"; };
+		1F4748B1A2B73A757ECAB9EE816D5815 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		208E08E03CDEAF96D01DB8EBA2FBA6E0 /* NSNull+WQ_SafeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+WQ_SafeValue.h"; path = "WQ_Category/Classes/NSNull+WQ_SafeValue.h"; sourceTree = "<group>"; };
+		2C15E36AD0EDB3CE0288CFBF2536CC2E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		2DA414A0C7D3FF16B87A7DC8542AB499 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		30369E474A9C59960C451FF5E931B743 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		3112405CB0B9C0A110B0E1DF70D780AF /* Pods-WQ_TabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQ_TabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31685F7D03F1E4DFC5F2DD2E8029EDDF /* WQ_Category.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQ_Category.modulemap; sourceTree = "<group>"; };
+		350F4EF5271CE49F0BD433833D7D07F1 /* WQ_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQ_Category.framework; path = WQ_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9A269929D4FA5C8FB51A9B14AEE6B2 /* UIImage+WQ_Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WQ_Extension.m"; path = "WQ_Category/Classes/UIImage+WQ_Extension.m"; sourceTree = "<group>"; };
+		3F90090B78749093BB6451411C4CC7A8 /* WQ_TabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQ_TabBar.h; path = WQ_TabBar/Classes/WQ_TabBar.h; sourceTree = "<group>"; };
+		4BE98205209B345451E3882C54D70447 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		51409D97FE742F179601C6E83595A469 /* WQ_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQ_Category-dummy.m"; sourceTree = "<group>"; };
+		53DEAA682A00A22E6A8D2F12F324CDBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58276276780CEBE472033EA332FF5AD9 /* Pods-WQ_TabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WQ_TabBar_Example-dummy.m"; sourceTree = "<group>"; };
+		5965CE267FF56F183AB5FBD1EECE5AB2 /* WQ_TabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_TabBar-umbrella.h"; sourceTree = "<group>"; };
+		60AB28774A6DF6A94F2A0D44AAD0E72A /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		673DD7E43B82D035F51F05C1819CC452 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		6AA95E5A28045867CF1441726699014C /* Pods-WQ_TabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQ_TabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AD0C04B5F3A20AA4DD27D4901543BC8 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		6ADF175266D2829E5D0669D0DB7C14F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6DDC6D51BA84680D5492E2857A6A31FB /* WQ_TabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WQ_TabBar.modulemap; sourceTree = "<group>"; };
+		6EDBD7890DDC4835C23371BAF63738DB /* WQ_Category-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_Category-umbrella.h"; sourceTree = "<group>"; };
+		70E7659D422259873D1189408D9BC6D1 /* Pods-WQ_TabBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_TabBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		72FAB4A7CC4E93BA69A36A5D72AACDA8 /* NSDictionary+WQ_SafeValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WQ_SafeValue.m"; path = "WQ_Category/Classes/NSDictionary+WQ_SafeValue.m"; sourceTree = "<group>"; };
+		754D8294223DF1A3AFE213E92D94FCA9 /* WQ_TabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQ_TabBarController.m; path = WQ_TabBar/Classes/WQ_TabBarController.m; sourceTree = "<group>"; };
+		75C62730D86C7FDC45693D7FA25E5E3A /* UINavigationBar+WQ_Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+WQ_Extension.m"; path = "WQ_Category/Classes/UINavigationBar+WQ_Extension.m"; sourceTree = "<group>"; };
+		7AEA5090A1CEDFCA2238245059A8CB3C /* Pods-WQ_TabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQ_TabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		7BD6CFDB29A8843252CE2628A3F22FA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2A962D20011171CA3E8AF95253D58E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		7E25744B253CAF21BC4140722E97D46B /* WQ_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQ_Category.xcconfig; sourceTree = "<group>"; };
+		87990AF04E04F93FBBE1A543C67B526B /* Pods-WQ_TabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_TabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		882D16727DB6F06CFAD4EABA78180F96 /* WQ_TabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WQ_TabBar.m; path = WQ_TabBar/Classes/WQ_TabBar.m; sourceTree = "<group>"; };
+		88BC55D4A0E0048BBE6DC7B8D4DBF702 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		8D778219DA308EAB908B74EE9D155EE1 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		8DF88B4C4E737B4A95EC94F976568C72 /* NSDate+WQ_Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+WQ_Extension.m"; path = "WQ_Category/Classes/NSDate+WQ_Extension.m"; sourceTree = "<group>"; };
+		8E12823708B92ED5785AC1A070A419B7 /* Pods-WQ_TabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WQ_TabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F866AB4E7433F60E3B9054E686F789B /* Pods-WQ_TabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_TabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		935196171D5F4EF6EA73B687036FCE00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975ADE62CE35740C239B7A3C025B70A1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8BDCCC4594AC0537E1313C7564767F /* WQ_TabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WQ_TabBarController.h; path = WQ_TabBar/Classes/WQ_TabBarController.h; sourceTree = "<group>"; };
+		9D7BF2260D71BDDF4E110C3F1751DAB2 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		9E1C78EB8E2D5E32AB5ECD6E0C339E38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9EF3EAE6796C10DDCDC5787FEA35A9E4 /* WQ_TabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WQ_TabBar-dummy.m"; sourceTree = "<group>"; };
+		9F771914ED093BD846FBB4EA5D2CDCAB /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		A4A19077DB269B4ABB61B57D4618E2B5 /* Pods-WQ_TabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_TabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A91A105E83DEE02E0C3D451E398DA3C6 /* WQ_TabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WQ_TabBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA9752F813BCD124540B6C90669D141B /* NSDictionary+WQ_SafeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WQ_SafeValue.h"; path = "WQ_Category/Classes/NSDictionary+WQ_SafeValue.h"; sourceTree = "<group>"; };
+		BD10DEBA81C1F8A49D3C5D8A1001F2F8 /* NSNull+WQ_SafeValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+WQ_SafeValue.m"; path = "WQ_Category/Classes/NSNull+WQ_SafeValue.m"; sourceTree = "<group>"; };
+		BD2BEE371E328BFF1C4E6717F36B0C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C0659916FD3BF9095910FD2104372F6C /* NSDate+WQ_Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+WQ_Extension.h"; path = "WQ_Category/Classes/NSDate+WQ_Extension.h"; sourceTree = "<group>"; };
+		C314547AC1777191243037975BDC2805 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		C715168E8D875003B5DAE4BE065B5A4A /* Pods-WQ_TabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WQ_TabBar_Example.modulemap"; sourceTree = "<group>"; };
+		CC90BBF2A2A85CF6C0AA0F1D39801F78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CEE34F083E474826F8A511FA4E93383A /* WQ_TabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WQ_TabBar.xcconfig; sourceTree = "<group>"; };
+		D0D0CEB05D97C40BCF0402D4002A5A87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1061983226E4033276A4B401585CA26 /* Pods-WQ_TabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WQ_TabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D23A32990234E8BAF8C54324D769E996 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4B41BEA7143D97E158A0E9399FF8991 /* Pods_WQ_TabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WQ_TabBar_Tests.framework; path = "Pods-WQ_TabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71F3D3A9F5E21A7E02F9FD46D36FD6F /* Pods-WQ_TabBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WQ_TabBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		DE1360B2871081A1080D362EF1DD1E09 /* WQ_TabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WQ_TabBar-prefix.pch"; sourceTree = "<group>"; };
+		E18B6455E7BD5694369FE492E29F3D79 /* WQ_TabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WQ_TabBar.framework; path = WQ_TabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2021DE6C61A739BE2D280EE06926586 /* Pods-WQ_TabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQ_TabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E36AFE498F1DBF9BA5A0D8744258F064 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		EA0940DB1F4F2EDBE6B03C2175672B30 /* WQ_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WQ_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC7EA590C0A3F69594EA19E36FF6C1B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		F1682D9786D936D42281CE5848936400 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		F47F2917B62F69AF6CE7C1E8AE7802C6 /* UIImage+WQ_Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+WQ_Extension.h"; path = "WQ_Category/Classes/UIImage+WQ_Extension.h"; sourceTree = "<group>"; };
+		F777CF4EFD2E95BEF79E4CBAC9956583 /* Pods-WQ_TabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WQ_TabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAFD6B9B901EA3D28C3F74CF09E2860F /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		FC807FF3E679B5306A679C26196DDE23 /* Pods-WQ_TabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WQ_TabBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		FF3A1E88EDB52B0E903B96D998D198C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB43B0CD44013DFFEE4A44EE64E663C /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A086085916D88E8F989A2FD78DFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5E847B5619856E1C22A74EC898F69C /* Foundation.framework in Frameworks */,
+				0441E82476A9178178DF00C2AEE41E9A /* QuartzCore.framework in Frameworks */,
+				8CAC3B81FFAB2342335164D30A3ACCD1 /* UIKit.framework in Frameworks */,
+				620002D55F8D093DFB3E88E2CF8DCC60 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605E99D73015BEB97BB79EAF597087BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A685616CBA0B5CA404C198E1E09A28AD /* Foundation.framework in Frameworks */,
+				C8C836F43A7F304292539BB1652D0E3A /* WQ_Category.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F5E6404FC57EEA149DA75983F84FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BB6493A9F27EE53F3DA43328F051E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A640610D82657CC4D6DA00FBB225EE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F199A91C9EBD7D43AEBE7D10A163CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1432F40732C47E85FDBAF15E7A8EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA36466365393255E73670A7FBBACEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0197139816278EB093D1862850BE61CE /* Pods-WQ_TabBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A1E88EDB52B0E903B96D998D198C8 /* Info.plist */,
+				C715168E8D875003B5DAE4BE065B5A4A /* Pods-WQ_TabBar_Example.modulemap */,
+				F777CF4EFD2E95BEF79E4CBAC9956583 /* Pods-WQ_TabBar_Example-acknowledgements.markdown */,
+				8E12823708B92ED5785AC1A070A419B7 /* Pods-WQ_TabBar_Example-acknowledgements.plist */,
+				58276276780CEBE472033EA332FF5AD9 /* Pods-WQ_TabBar_Example-dummy.m */,
+				87990AF04E04F93FBBE1A543C67B526B /* Pods-WQ_TabBar_Example-frameworks.sh */,
+				03B575496D40077AECE83E72B986E2C1 /* Pods-WQ_TabBar_Example-resources.sh */,
+				FC807FF3E679B5306A679C26196DDE23 /* Pods-WQ_TabBar_Example-umbrella.h */,
+				D1061983226E4033276A4B401585CA26 /* Pods-WQ_TabBar_Example.debug.xcconfig */,
+				8F866AB4E7433F60E3B9054E686F789B /* Pods-WQ_TabBar_Example.release.xcconfig */,
+			);
+			name = "Pods-WQ_TabBar_Example";
+			path = "Target Support Files/Pods-WQ_TabBar_Example";
+			sourceTree = "<group>";
+		};
+		0D08274BFE26C994C45B09911A0035F4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79A30789B4628B233398B8B3F435F6C4 /* WQ_TabBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2062F154024E93C5AF48413A057EB446 /* WQ_Category */ = {
+			isa = PBXGroup;
+			children = (
+				C0659916FD3BF9095910FD2104372F6C /* NSDate+WQ_Extension.h */,
+				8DF88B4C4E737B4A95EC94F976568C72 /* NSDate+WQ_Extension.m */,
+				BA9752F813BCD124540B6C90669D141B /* NSDictionary+WQ_SafeValue.h */,
+				72FAB4A7CC4E93BA69A36A5D72AACDA8 /* NSDictionary+WQ_SafeValue.m */,
+				208E08E03CDEAF96D01DB8EBA2FBA6E0 /* NSNull+WQ_SafeValue.h */,
+				BD10DEBA81C1F8A49D3C5D8A1001F2F8 /* NSNull+WQ_SafeValue.m */,
+				F47F2917B62F69AF6CE7C1E8AE7802C6 /* UIImage+WQ_Extension.h */,
+				3A9A269929D4FA5C8FB51A9B14AEE6B2 /* UIImage+WQ_Extension.m */,
+				19ED0257100ED7B2594B34E3D08D5E3B /* UINavigationBar+WQ_Extension.h */,
+				75C62730D86C7FDC45693D7FA25E5E3A /* UINavigationBar+WQ_Extension.m */,
+				BF39D43BE316AD5072E64F609099F948 /* Support Files */,
+			);
+			name = WQ_Category;
+			path = WQ_Category;
+			sourceTree = "<group>";
+		};
+		21D8D5A5C3096619145BD8670EB072D0 /* Pods-WQ_TabBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				53DEAA682A00A22E6A8D2F12F324CDBA /* Info.plist */,
+				7AEA5090A1CEDFCA2238245059A8CB3C /* Pods-WQ_TabBar_Tests.modulemap */,
+				6AA95E5A28045867CF1441726699014C /* Pods-WQ_TabBar_Tests-acknowledgements.markdown */,
+				3112405CB0B9C0A110B0E1DF70D780AF /* Pods-WQ_TabBar_Tests-acknowledgements.plist */,
+				0669DA07BC14FB0A15B66692702E5F1F /* Pods-WQ_TabBar_Tests-dummy.m */,
+				70E7659D422259873D1189408D9BC6D1 /* Pods-WQ_TabBar_Tests-frameworks.sh */,
+				D71F3D3A9F5E21A7E02F9FD46D36FD6F /* Pods-WQ_TabBar_Tests-resources.sh */,
+				E2021DE6C61A739BE2D280EE06926586 /* Pods-WQ_TabBar_Tests-umbrella.h */,
+				01CE4807896C3AEF2E9400DC4D5C92F5 /* Pods-WQ_TabBar_Tests.debug.xcconfig */,
+				A4A19077DB269B4ABB61B57D4618E2B5 /* Pods-WQ_TabBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-WQ_TabBar_Tests";
+			path = "Target Support Files/Pods-WQ_TabBar_Tests";
+			sourceTree = "<group>";
+		};
+		286BE2EB4074285126A469A5B32C48F6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BEE371E328BFF1C4E6717F36B0C59 /* Foundation.framework */,
+				CC90BBF2A2A85CF6C0AA0F1D39801F78 /* QuartzCore.framework */,
+				1F4748B1A2B73A757ECAB9EE816D5815 /* UIKit.framework */,
+				6ADF175266D2829E5D0669D0DB7C14F1 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F355A4B4C81D88633B32DAA6EDC40C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0197139816278EB093D1862850BE61CE /* Pods-WQ_TabBar_Example */,
+				21D8D5A5C3096619145BD8670EB072D0 /* Pods-WQ_TabBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		505E554E5B2322DA86292F480D70BD44 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC523D9C13E382B26789BBC2327F94 /* Core */,
+				B9455D9C9DF71390601A9D792010115C /* Support Files */,
+				6F773C4974532737AE999EAF58441759 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		531ADC1D473C114CE0ADE4257AE12A21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				935196171D5F4EF6EA73B687036FCE00 /* Info.plist */,
+				6DDC6D51BA84680D5492E2857A6A31FB /* WQ_TabBar.modulemap */,
+				CEE34F083E474826F8A511FA4E93383A /* WQ_TabBar.xcconfig */,
+				9EF3EAE6796C10DDCDC5787FEA35A9E4 /* WQ_TabBar-dummy.m */,
+				DE1360B2871081A1080D362EF1DD1E09 /* WQ_TabBar-prefix.pch */,
+				5965CE267FF56F183AB5FBD1EECE5AB2 /* WQ_TabBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WQ_TabBar";
+			sourceTree = "<group>";
+		};
+		5BCC523D9C13E382B26789BBC2327F94 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E36AFE498F1DBF9BA5A0D8744258F064 /* FBSnapshotTestCase.h */,
+				0BCD2CDA0543F7223EC5ACCD97D90244 /* FBSnapshotTestCase.m */,
+				FAFD6B9B901EA3D28C3F74CF09E2860F /* FBSnapshotTestCasePlatform.h */,
+				9D7BF2260D71BDDF4E110C3F1751DAB2 /* FBSnapshotTestCasePlatform.m */,
+				9F771914ED093BD846FBB4EA5D2CDCAB /* FBSnapshotTestController.h */,
+				60AB28774A6DF6A94F2A0D44AAD0E72A /* FBSnapshotTestController.m */,
+				EFC7EA590C0A3F69594EA19E36FF6C1B /* UIApplication+StrictKeyWindow.h */,
+				2DA414A0C7D3FF16B87A7DC8542AB499 /* UIApplication+StrictKeyWindow.m */,
+				F1682D9786D936D42281CE5848936400 /* UIImage+Compare.h */,
+				88BC55D4A0E0048BBE6DC7B8D4DBF702 /* UIImage+Compare.m */,
+				4BE98205209B345451E3882C54D70447 /* UIImage+Diff.h */,
+				2C15E36AD0EDB3CE0288CFBF2536CC2E /* UIImage+Diff.m */,
+				7D2A962D20011171CA3E8AF95253D58E /* UIImage+Snapshot.h */,
+				673DD7E43B82D035F51F05C1819CC452 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6F773C4974532737AE999EAF58441759 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				C314547AC1777191243037975BDC2805 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		778A241089D98D73D2F6DB5F54B35C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				975ADE62CE35740C239B7A3C025B70A1 /* FBSnapshotTestCase.framework */,
+				086B55D1A6EBF1379752F0E001C23C3D /* Pods_WQ_TabBar_Example.framework */,
+				D4B41BEA7143D97E158A0E9399FF8991 /* Pods_WQ_TabBar_Tests.framework */,
+				350F4EF5271CE49F0BD433833D7D07F1 /* WQ_Category.framework */,
+				E18B6455E7BD5694369FE492E29F3D79 /* WQ_TabBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A30789B4628B233398B8B3F435F6C4 /* WQ_TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F90090B78749093BB6451411C4CC7A8 /* WQ_TabBar.h */,
+				882D16727DB6F06CFAD4EABA78180F96 /* WQ_TabBar.m */,
+				9A8BDCCC4594AC0537E1313C7564767F /* WQ_TabBarController.h */,
+				754D8294223DF1A3AFE213E92D94FCA9 /* WQ_TabBarController.m */,
+				C0EC48C7AE73CA9E430545DD8EF837C9 /* Pod */,
+				531ADC1D473C114CE0ADE4257AE12A21 /* Support Files */,
+			);
+			name = WQ_TabBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0D08274BFE26C994C45B09911A0035F4 /* Development Pods */,
+				B417698E05EA447C1260C9E686BA854B /* Frameworks */,
+				F3945592F77DC7387565C5BD6308B8B8 /* Pods */,
+				778A241089D98D73D2F6DB5F54B35C74 /* Products */,
+				3F355A4B4C81D88633B32DAA6EDC40C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B417698E05EA447C1260C9E686BA854B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0940DB1F4F2EDBE6B03C2175672B30 /* WQ_Category.framework */,
+				286BE2EB4074285126A469A5B32C48F6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9455D9C9DF71390601A9D792010115C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD0C04B5F3A20AA4DD27D4901543BC8 /* FBSnapshotTestCase.modulemap */,
+				051FC8AFEF2E21C130AE247CBA6A6F49 /* FBSnapshotTestCase.xcconfig */,
+				8D778219DA308EAB908B74EE9D155EE1 /* FBSnapshotTestCase-dummy.m */,
+				FFB43B0CD44013DFFEE4A44EE64E663C /* FBSnapshotTestCase-prefix.pch */,
+				30369E474A9C59960C451FF5E931B743 /* FBSnapshotTestCase-umbrella.h */,
+				7BD6CFDB29A8843252CE2628A3F22FA6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BF39D43BE316AD5072E64F609099F948 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D0CEB05D97C40BCF0402D4002A5A87 /* Info.plist */,
+				31685F7D03F1E4DFC5F2DD2E8029EDDF /* WQ_Category.modulemap */,
+				7E25744B253CAF21BC4140722E97D46B /* WQ_Category.xcconfig */,
+				51409D97FE742F179601C6E83595A469 /* WQ_Category-dummy.m */,
+				0AA68957161CE9A68F630289A5B3DF31 /* WQ_Category-prefix.pch */,
+				6EDBD7890DDC4835C23371BAF63738DB /* WQ_Category-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WQ_Category";
+			sourceTree = "<group>";
+		};
+		C0EC48C7AE73CA9E430545DD8EF837C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9E1C78EB8E2D5E32AB5ECD6E0C339E38 /* LICENSE */,
+				D23A32990234E8BAF8C54324D769E996 /* README.md */,
+				A91A105E83DEE02E0C3D451E398DA3C6 /* WQ_TabBar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F3945592F77DC7387565C5BD6308B8B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				505E554E5B2322DA86292F480D70BD44 /* FBSnapshotTestCase */,
+				2062F154024E93C5AF48413A057EB446 /* WQ_Category */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		124C1EACD3AD940E08E566E04D158E65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9D858EF4842121CE99AE7A3D12B771 /* Pods-WQ_TabBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8391E963EC860C4FFC52F070AAF0FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA8E6AE03FC3C0D8243EF9066129980 /* WQ_TabBar-umbrella.h in Headers */,
+				D9A261DFB7A2DEAA14871C54825E6328 /* WQ_TabBar.h in Headers */,
+				D44B9941030FF0833E3D578F8FA38022 /* WQ_TabBarController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */,
+				B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */,
+				4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */,
+				59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */,
+				BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */,
+				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
+				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
+				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D799EE71D64CEEC929BE2245EE78F4DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B514FBBE2D72380FFA36A50FF4D87FBD /* NSDate+WQ_Extension.h in Headers */,
+				0A7AA983C906CCA7C1018FA1A1C568A3 /* NSDictionary+WQ_SafeValue.h in Headers */,
+				02F47B6F6F8AA5DCD05FEEB11197447B /* NSNull+WQ_SafeValue.h in Headers */,
+				281842DCB0EF2048CEB11C7F7D0AE2EA /* UIImage+WQ_Extension.h in Headers */,
+				0CD6A51C14A1270872AC21FF4120AA85 /* UINavigationBar+WQ_Extension.h in Headers */,
+				BDE819103C42BA4E61104BA284960334 /* WQ_Category-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACC63DC5226BC05F32F6B4ADD6AC9E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F866966C8E3DA102EEADBBBE7F9623DC /* Pods-WQ_TabBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25F8BBBFC010E2FD173DDE3CBE8370DD /* Pods-WQ_TabBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7115390C534996F8C9607276C4728ABB /* Build configuration list for PBXNativeTarget "Pods-WQ_TabBar_Tests" */;
+			buildPhases = (
+				124C1EACD3AD940E08E566E04D158E65 /* Headers */,
+				3BB882504D3B66CA0AF2B2CCD9C14603 /* Sources */,
+				715F5E6404FC57EEA149DA75983F84FB /* Frameworks */,
+				848C1C22DBF2560DA255609BFDDDBEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C040A92EE322DFE281E4924640F05B7 /* PBXTargetDependency */,
+				4E204CEF9CD3A0CE6410F0AF62E7BC6E /* PBXTargetDependency */,
+			);
+			name = "Pods-WQ_TabBar_Tests";
+			productName = "Pods-WQ_TabBar_Tests";
+			productReference = D4B41BEA7143D97E158A0E9399FF8991 /* Pods_WQ_TabBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58B201BFDB9D86FF78E5787EE33DDCBB /* WQ_TabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342AC6C6B8BCBDE6B8CA6D841718644F /* Build configuration list for PBXNativeTarget "WQ_TabBar" */;
+			buildPhases = (
+				2D8391E963EC860C4FFC52F070AAF0FE /* Headers */,
+				F6FFB19690C633AA0484DEA87D3A4E3B /* Sources */,
+				605E99D73015BEB97BB79EAF597087BB /* Frameworks */,
+				8E010462FB31DFFD2252010ECE47DAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E549A78852F335457A1EA384622A86 /* PBXTargetDependency */,
+			);
+			name = WQ_TabBar;
+			productName = WQ_TabBar;
+			productReference = E18B6455E7BD5694369FE492E29F3D79 /* WQ_TabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88B2B9932577DF4F6794FC4E138343D8 /* Pods-WQ_TabBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781FC5D0296FC68AC4890105A70F44A7 /* Build configuration list for PBXNativeTarget "Pods-WQ_TabBar_Example" */;
+			buildPhases = (
+				FACC63DC5226BC05F32F6B4ADD6AC9E6 /* Headers */,
+				701CB22B37348D7990D482B2D79F6EBB /* Sources */,
+				A640610D82657CC4D6DA00FBB225EE89 /* Frameworks */,
+				303D78A480CB318458A49B401FE79AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27ACC4A8670111B94D93DD8D873C9DB /* PBXTargetDependency */,
+				C686DDC7E57837EEFD40DBA0819A16D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-WQ_TabBar_Example";
+			productName = "Pods-WQ_TabBar_Example";
+			productReference = 086B55D1A6EBF1379752F0E001C23C3D /* Pods_WQ_TabBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */,
+				533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */,
+				06A086085916D88E8F989A2FD78DFDFB /* Frameworks */,
+				AD4E4321B395852DC07143FDAF5069AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 975ADE62CE35740C239B7A3C025B70A1 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D792A6F88E7348ACB1E3CA01DE8F2E1C /* WQ_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1183AD577509A9F907215AC0DE72FA1 /* Build configuration list for PBXNativeTarget "WQ_Category" */;
+			buildPhases = (
+				D799EE71D64CEEC929BE2245EE78F4DC /* Headers */,
+				D6FC2B26F5F0FD863ECF5D873BF3012E /* Sources */,
+				DD1432F40732C47E85FDBAF15E7A8EC0 /* Frameworks */,
+				61B3D9E126852C44544E91E0FED067F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQ_Category;
+			productName = WQ_Category;
+			productReference = 350F4EF5271CE49F0BD433833D7D07F1 /* WQ_Category.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 778A241089D98D73D2F6DB5F54B35C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
+				88B2B9932577DF4F6794FC4E138343D8 /* Pods-WQ_TabBar_Example */,
+				25F8BBBFC010E2FD173DDE3CBE8370DD /* Pods-WQ_TabBar_Tests */,
+				D792A6F88E7348ACB1E3CA01DE8F2E1C /* WQ_Category */,
+				58B201BFDB9D86FF78E5787EE33DDCBB /* WQ_TabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303D78A480CB318458A49B401FE79AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B3D9E126852C44544E91E0FED067F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848C1C22DBF2560DA255609BFDDDBEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E010462FB31DFFD2252010ECE47DAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB882504D3B66CA0AF2B2CCD9C14603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2820BDA347DDB51229DC465F25B7B6F /* Pods-WQ_TabBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
+				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
+				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
+				E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */,
+				163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */,
+				AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */,
+				4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */,
+				E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */,
+				EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701CB22B37348D7990D482B2D79F6EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5A8BE76ABC61DDFAACB36873B6D549 /* Pods-WQ_TabBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FC2B26F5F0FD863ECF5D873BF3012E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9938A69316FBCA39045A8CC4FD9CEB /* NSDate+WQ_Extension.m in Sources */,
+				D67DC0B1FFFB09C4EBCF6D7A7F6C59F2 /* NSDictionary+WQ_SafeValue.m in Sources */,
+				628A1E33DDB8B21766710D90F449E7B8 /* NSNull+WQ_SafeValue.m in Sources */,
+				FF8351C865F7873FD2D42C2175B51335 /* UIImage+WQ_Extension.m in Sources */,
+				AB6D4599AAEF7C8BDB01D86E319557BC /* UINavigationBar+WQ_Extension.m in Sources */,
+				F24F3FA0A0B3540B80355110F1608041 /* WQ_Category-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FFB19690C633AA0484DEA87D3A4E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAE7CF26223EF6654884CC1F86BF0E2 /* WQ_TabBar-dummy.m in Sources */,
+				413D79C12029047E75883BC3B59B90E6 /* WQ_TabBar.m in Sources */,
+				5FBCC0B5984E92A2D8CA46474338DC73 /* WQ_TabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E204CEF9CD3A0CE6410F0AF62E7BC6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WQ_TabBar_Example";
+			target = 88B2B9932577DF4F6794FC4E138343D8 /* Pods-WQ_TabBar_Example */;
+			targetProxy = 88893FD675EFDB869AD946F3C34F068C /* PBXContainerItemProxy */;
+		};
+		83E549A78852F335457A1EA384622A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WQ_Category;
+			target = D792A6F88E7348ACB1E3CA01DE8F2E1C /* WQ_Category */;
+			targetProxy = F806C20366B2F44499A14A953273D2B2 /* PBXContainerItemProxy */;
+		};
+		9C040A92EE322DFE281E4924640F05B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
+			targetProxy = F725111C818E8AF3C03EAFCB43501BB6 /* PBXContainerItemProxy */;
+		};
+		C27ACC4A8670111B94D93DD8D873C9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WQ_Category;
+			target = D792A6F88E7348ACB1E3CA01DE8F2E1C /* WQ_Category */;
+			targetProxy = 90231CBC9069FAE022A1B54AAC8C35C5 /* PBXContainerItemProxy */;
+		};
+		C686DDC7E57837EEFD40DBA0819A16D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WQ_TabBar;
+			target = 58B201BFDB9D86FF78E5787EE33DDCBB /* WQ_TabBar */;
+			targetProxy = 28D4E4536E024D3EE53BA84E55F69110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EF820A6A89853363BC017A268B45872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A19077DB269B4ABB61B57D4618E2B5 /* Pods-WQ_TabBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQ_TabBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQ_TabBar_Tests/Pods-WQ_TabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F1A80A53CF95B3A166C97ED0D9F09D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01CE4807896C3AEF2E9400DC4D5C92F5 /* Pods-WQ_TabBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQ_TabBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQ_TabBar_Tests/Pods-WQ_TabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42653CED19211D4DE2E1CE995E2CE1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051FC8AFEF2E21C130AE247CBA6A6F49 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		515DB4B6E569C14F19A6CB0653015426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1061983226E4033276A4B401585CA26 /* Pods-WQ_TabBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQ_TabBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQ_TabBar_Example/Pods-WQ_TabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731E143A1753E89B9FDCF64E407BA4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051FC8AFEF2E21C130AE247CBA6A6F49 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		773B0A9AB6FDD5E0040EB546C36FDFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE34F083E474826F8A511FA4E93383A /* WQ_TabBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQ_TabBar/WQ_TabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQ_TabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQ_TabBar/WQ_TabBar.modulemap";
+				PRODUCT_MODULE_NAME = WQ_TabBar;
+				PRODUCT_NAME = WQ_TabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A322213632FEA8A79F9B0FBE3263B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F866AB4E7433F60E3B9054E686F789B /* Pods-WQ_TabBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WQ_TabBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WQ_TabBar_Example/Pods-WQ_TabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B48CA0545846F870A86B79EE4847333D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E25744B253CAF21BC4140722E97D46B /* WQ_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQ_Category/WQ_Category-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQ_Category/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQ_Category/WQ_Category.modulemap";
+				PRODUCT_MODULE_NAME = WQ_Category;
+				PRODUCT_NAME = WQ_Category;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF0666FC7802724E8B8F9F4EA99D7849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE34F083E474826F8A511FA4E93383A /* WQ_TabBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQ_TabBar/WQ_TabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQ_TabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQ_TabBar/WQ_TabBar.modulemap";
+				PRODUCT_MODULE_NAME = WQ_TabBar;
+				PRODUCT_NAME = WQ_TabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F296A47A3A968918508655D2FCF1144B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E25744B253CAF21BC4140722E97D46B /* WQ_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WQ_Category/WQ_Category-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WQ_Category/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WQ_Category/WQ_Category.modulemap";
+				PRODUCT_MODULE_NAME = WQ_Category;
+				PRODUCT_NAME = WQ_Category;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342AC6C6B8BCBDE6B8CA6D841718644F /* Build configuration list for PBXNativeTarget "WQ_TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0666FC7802724E8B8F9F4EA99D7849 /* Debug */,
+				773B0A9AB6FDD5E0040EB546C36FDFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7115390C534996F8C9607276C4728ABB /* Build configuration list for PBXNativeTarget "Pods-WQ_TabBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1A80A53CF95B3A166C97ED0D9F09D6 /* Debug */,
+				1EF820A6A89853363BC017A268B45872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781FC5D0296FC68AC4890105A70F44A7 /* Build configuration list for PBXNativeTarget "Pods-WQ_TabBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515DB4B6E569C14F19A6CB0653015426 /* Debug */,
+				A322213632FEA8A79F9B0FBE3263B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42653CED19211D4DE2E1CE995E2CE1D2 /* Debug */,
+				731E143A1753E89B9FDCF64E407BA4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1183AD577509A9F907215AC0DE72FA1 /* Build configuration list for PBXNativeTarget "WQ_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48CA0545846F870A86B79EE4847333D /* Debug */,
+				F296A47A3A968918508655D2FCF1144B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

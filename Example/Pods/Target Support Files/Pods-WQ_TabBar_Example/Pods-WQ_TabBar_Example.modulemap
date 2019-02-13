@@ -1,0 +1,6 @@
+framework module Pods_WQ_TabBar_Example {
+  umbrella header "Pods-WQ_TabBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

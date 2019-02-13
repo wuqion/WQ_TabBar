@@ -1,0 +1,38 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WQ_Category (0.1.0)
+  - WQ_TabBar (0.1.0):
+    - WQ_Category
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WQ_Category (from `https://github.com/wuqion/WQ_Category.git`)
+  - WQ_TabBar (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WQ_Category:
+    :git: https://github.com/wuqion/WQ_Category.git
+  WQ_TabBar:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  WQ_Category:
+    :commit: db98472413997db252eea27c76b354857d38b3db
+    :git: https://github.com/wuqion/WQ_Category.git
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WQ_Category: 55da8dc02c9b186db30a68cfda5169457ccccb75
+  WQ_TabBar: 79825f14ebf808970add5c79c520f978266fdfff
+
+PODFILE CHECKSUM: fd289893197dbb323d86e06cdebe61365cc6a6cf
+
+COCOAPODS: 1.5.3

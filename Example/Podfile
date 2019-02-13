@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WQ_TabBar_Example' do
+    pod 'WQ_TabBar', :path => '../'
+    pod 'WQ_Category', :git => 'https://github.com/wuqion/WQ_Category.git'
+
+  target 'WQ_TabBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

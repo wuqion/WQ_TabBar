@@ -1,0 +1,27 @@
+{
+  "name": "WQ_TabBar",
+  "version": "0.1.0",
+  "summary": "A short description of WQ_TabBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuqion/WQ_TabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuqiongaia@163.com": "jiangwei@lcworld-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/wuqion/WQ_TabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WQ_TabBar/Classes/**/*",
+  "dependencies": {
+    "WQ_Category": [
+
+    ]
+  }
+}

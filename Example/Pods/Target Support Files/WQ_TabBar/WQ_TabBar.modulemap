@@ -1,0 +1,6 @@
+framework module WQ_TabBar {
+  umbrella header "WQ_TabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
